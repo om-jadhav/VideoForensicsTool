@@ -61,7 +61,17 @@ cd VidForensicsTool
 ### 6. Stop the Application:
   To stop the Streamlit app, press `CTRL + C` in the terminal.
 
+## Credits
+Based on [VidForensicsTool](https://github.com/LitZeus/VidForensicsTool)
+by Tejas Athalye (MIT License).
 
+### My modifications
+- Statistical frame anomaly detection (robust z-score, histogram comparison)
+- Duplicate-frame and timestamp-gap detection
+- SHA-256 + MD5 hashing
+- ffprobe-based metadata with forensic warnings
+- Interactive charts, frame previews and explainable risk score
+- Secure temp-file handling and saved JSON reports
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or create a pull request.
 
