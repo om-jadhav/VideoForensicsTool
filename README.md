@@ -23,29 +23,32 @@ The **Video Forensic Analysis Tool** is designed to ensure the authenticity and 
 ## Setup Instructions
 
 #### First Fork the repository and then follow the steps given below!
-
-### 1. Clone the Repository
+### 1. Install FFprobe 
+```sh
+command to install - ffprobe command- winget install Gyan.FFmpeg
+```
+### 2. Clone the Repository
 
 ```sh
 git clone https://github.com/<your-username>/VidForensicsTool.git
 cd VidForensicsTool
 ```
-### 2. Create a virtual environment:
+### 3. Create a virtual environment:
    ```sh
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-### 3. Install the required packages:
+### 4. Install the required packages:
    ```sh
    pip install -r requirements.txt
    ```
 
-### 4. Run the application:
+### 5. Run the application:
   ```sh
     streamlit run main.py
   ```
-### 5. Usage Instructions
+### 6. Usage Instructions
 
   ##### 1. Open your web browser and go to `http://localhost:8501` to access the app.
   
@@ -58,7 +61,7 @@ cd VidForensicsTool
 
   ##### 4. Download the comprehensive JSON report summarizing the findings.
 
-### 6. Stop the Application:
+### 7. Stop the Application:
   To stop the Streamlit app, press `CTRL + C` in the terminal.
 
 ## Credits
